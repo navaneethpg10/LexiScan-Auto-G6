@@ -1,0 +1,90 @@
+# ==================================================
+# Core Numerical Stack
+# ==================================================
+numpy==1.24.4
+pandas==2.1.3
+scipy==1.11.4
+tqdm==4.66.1
+joblib==1.3.2
+python-dateutil==2.8.2
+pytz==2025.2
+
+# ==================================================
+# PDF & OCR Processing (Framework-agnostic)
+# ==================================================
+pytesseract==0.3.10
+pdf2image==1.16.3
+pymupdf==1.23.8
+pypdf==3.17.1
+opencv-python-headless==4.8.1.78
+Pillow==10.1.0
+
+# ==================================================
+# OCR Layout & Geometry (Optional but Safe)
+# ==================================================
+layoutparser==0.3.4
+shapely==2.0.2
+pyyaml==6.0.1
+
+# ==================================================
+# NLP Utilities (Non-transformer)
+# ==================================================
+nltk==3.8.1
+regex==2023.10.3
+gensim==4.3.2           # GloVe embeddings
+
+# ==================================================
+# Deep Learning (TensorFlow ONLY)
+# ==================================================
+tensorflow==2.14.0
+keras==2.14.0
+tensorflow-addons==0.22.0   # CRF layer (BiLSTM-CRF)
+
+# ==================================================
+# Transfer Learning (TensorFlow-native BERT)
+# ==================================================
+transformers==4.35.2
+sentencepiece==0.1.99
+huggingface-hub==0.19.4
+
+# ==================================================
+# Evaluation & Metrics (NER F1)
+# ==================================================
+scikit-learn==1.3.2
+seqeval==1.2.2
+
+# ==================================================
+# Rule-Based Validation (Lawyer Trust Layer)
+# ==================================================
+python-Levenshtein==0.23.0
+dateparser==1.2.0
+babel==2.13.1
+textdistance==4.6.0
+unidecode==1.3.7
+ftfy==6.1.3
+
+# ==================================================
+# REST API (Pydantic v1 – SpaCy/Doccano Safe)
+# ==================================================
+fastapi==0.95.2
+pydantic==1.10.13
+uvicorn==0.24.0
+python-multipart==0.0.6
+
+# ==================================================
+# Logging & Observability
+# ==================================================
+loguru==0.7.2
+rich==13.7.0
+
+# ==================================================
+# Testing & Code Quality
+# ==================================================
+pytest==7.4.3
+pytest-cov==4.1.0
+black==23.10.1
+isort==5.12.0
+spacy==3.7.2
+thinc==8.2.2
+beautifulsoup4==4.12.2
+lxml==4.9.3

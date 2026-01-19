@@ -1,0 +1,6 @@
+ENTITY_LABELS = [
+    "DATE",
+    "PARTY",
+    "MONEY",
+    "TERMINATION_CLAUSE"
+]
